@@ -1,0 +1,132 @@
+/* Write your CSS here */
+.product-detail-container {
+  display: flex;
+}
+.product-image {
+  width: 27%;
+  height: 70vh;
+  border-radius: 20px;
+}
+.product-info {
+  padding: 30px;
+  padding-top: 0px;
+}
+.rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.rating-container {
+  background-color: #3b82f6;
+  width: 60px;
+  height: 30px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 7px;
+}
+.star-image {
+  width: 20px;
+  height: 20px;
+}
+.add-item-container {
+  display: flex;
+  align-items: center;
+}
+.add-button {
+  height: 20px;
+  margin: 7px;
+  border: none;
+  background-color: transparent;
+}
+.add-class-button {
+  background-color: #cbced2;
+  font-size: 20px;
+  border: none;
+  color: #616e7c;
+}
+.add-cart-button {
+  background-color: #3b82f6;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 7px;
+}
+.prod-title {
+  color: #475569;
+  font-size: 45px;
+}
+.price {
+  color: #1e293b;
+}
+.review {
+  color: #475569;
+  font-weight: 600;
+}
+.description {
+  color: #616e7c;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.available {
+  color: #171f46;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.avail {
+  color: #475569;
+  font-weight: normal;
+}
+.product-similar {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.similar-list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.similar {
+  color: #616e7c;
+}
+.similar-container {
+  margin-top: 40px;
+}
+.failure-prod-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.error-image {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.continue-button {
+  background-color: #3b82f6;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: 'Roboto';
+}
+.prod-not-found {
+  color: #12022f;
+}
+.loader-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-items {
+  color: #475569;
+  font-weight: 700;
+}
+.aval-brand {
+  display: flex;
+}

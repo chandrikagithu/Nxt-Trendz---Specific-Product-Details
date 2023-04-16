@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.similar-prod-list {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.list-image {
+  width: 70%;
+  border-radius: 10px;
+}
+.short-title {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #171f46;
+}
+.short-brand {
+  color: #616e7c;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 72%;
+}
+.rupees {
+  color: #12022f;
+  font-weight: 700;
+}
